@@ -4,12 +4,12 @@ import cv2
 import cvzone
 import math
 
-# # For Webcam
-# cap = cv2.VideoCapture(0)
-# cap.set(3, 1280)
-# cap.set(4, 720)
+# For Webcam
+cap = cv2.VideoCapture(0)
+cap.set(3, 1280)
+cap.set(4, 720)
 # For Video
-cap = cv2.VideoCapture("Videos/motorbikes.mp4")
+# cap = cv2.VideoCapture("Videos/motorbikes.mp4")
 
 model = YOLO("../YOLO-Weights/yolov8l.pt")
 
